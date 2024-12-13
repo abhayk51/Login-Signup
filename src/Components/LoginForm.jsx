@@ -7,7 +7,8 @@ function LoginForm(){
     <>
     <div className="row d-flex justify-content-center my-5">
       <div className="col-md-3 bg-light rounded px-5 py-4">
-        <h1 className='text-center text-primary fw-bold'>{action}</h1><hr className='border border-2 border-primary'/>
+        <h1 className='text-center text-primary fw-bold'>{action}</h1>
+        <hr className='border border-2 border-primary mx-auto d-block w-25'/>
         <form action="">
           {action==='Login'?null:<>
             <div className="mb-3">
